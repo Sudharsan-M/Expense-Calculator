@@ -1,0 +1,46 @@
+.new-expense {
+    background-color: #65a8aa;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  .new-expense button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #000e5d;
+    background-color: #00165d;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+    font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  }
+  
+  .new-expense button:hover,
+  .new-expense button:active {
+    background-color: #77130c;
+    border-color: #000e5d;
+  }
+  
+  .new-expense button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+    border-width: 2px;
+  padding: 0.8rem 2rem;
+  }
+  
+  .new-expense button.alternative:hover,
+  .new-expense button.alternative:active {
+    background-color: #ddb3f8;
+    background-color: #ddb3f8;
+  transform: translateY(-2px);
+  }

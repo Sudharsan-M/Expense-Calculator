@@ -1,0 +1,34 @@
+.expenses-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .expenses-list__fallback {
+    color: white;
+    text-align: center;
+  }
+  .expenses-list__item {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expenses-list__item > div:first-child {
+    font-weight: bold;
+  }
+  
+  .expenses-list__item > div:last-child {
+    color: #888;
+  }
+  
+  .expenses-list__fallback {
+    font-style: italic;
+    margin-top: 0.5rem;
+    color: #aaa;
+  }

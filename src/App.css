@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
+    font-weight: bold;
+}
